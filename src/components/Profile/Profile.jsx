@@ -40,9 +40,6 @@ const divStyle = {
   boxShadow: '0px 1px 1px rgba(46, 47, 66, 0.16), 0px 3px 1px rgba(46, 47, 66, 0.08), 9px -2px 11px -7px rgba(0,0,0,0.75)',
 }
   
-const icon = {
-
-}
 
 export const ProfileUser = ({
     avatar,
