@@ -1,5 +1,6 @@
 
 import PropTypes from 'prop-types';
+import { TiHeartOutline, TiEyeOutline, TiGroupOutline  } from "react-icons/ti";
 
 const listStyle = {
   display: 'flex',
@@ -37,7 +38,11 @@ const divStyle = {
   marginLeft: "auto",
   marginRight: "auto",
   boxShadow: '0px 1px 1px rgba(46, 47, 66, 0.16), 0px 3px 1px rgba(46, 47, 66, 0.08), 9px -2px 11px -7px rgba(0,0,0,0.75)',
-  }
+}
+  
+const icon = {
+
+}
 
 export const ProfileUser = ({
     avatar,
@@ -63,15 +68,15 @@ export const ProfileUser = ({
 
         <ul className="stats" style={ulStyle}>
     <li style={listStyle}>
-      <span className="label">Followers</span>
-      <span className="quantity">{followers}</span>
+      <span className="label"><TiGroupOutline size={24} /></span>
+          <span className="quantity">{followers}</span>
     </li>
     <li style={listStyle}>
-      <span className="label">Views</span>
+      <span className="label"><TiEyeOutline size={24}/></span>
       <span className="quantity">{views}</span>
     </li>
     <li style={listStyle}>
-      <span className="label">Likes</span>
+          <span className="label"><TiHeartOutline size={24}/></span>
       <span className="quantity">{likes}</span>
     </li>
   </ul>
