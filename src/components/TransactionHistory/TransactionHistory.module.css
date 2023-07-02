@@ -1,0 +1,23 @@
+.transactionHistory {
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid gray;
+    border-collapse: collapse;
+}
+
+.head {
+    padding: 10px;
+    border: 0.5px solid gray;
+    background-color: lightblue;
+}
+
+.body {
+    padding: 10px;
+    border: 0.5px solid gray;
+    text-align: center;
+}
+
+.zebra:nth-child(even) {
+    background-color: lightgray;
+}
